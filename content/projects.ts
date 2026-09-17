@@ -2,31 +2,31 @@ import type { Project } from "./types";
 
 export const projects: Project[] = [
   {
-    title: "ledger-kit",
+    title: "infra-pilot-iac",
     description:
-      "Double-entry accounting primitives for Go services. Handles idempotency and reconciliation so you stop reinventing both.",
-    href: "https://github.com",
-    tags: ["Go", "Payments"],
+      "Reusable AWS platform built with Terraform, supporting multi-service ECS deployments, OIDC-based CI/CD, and scalable infrastructure management.  One of sample service using this infra : https://github.com/sumitverma77/infra-pilot-api",
+    href: "https://github.com/sumitverma77/infra-pilot-iac",
+    tags: ["HCL", "★ 2"],
   },
   {
-    title: "tracequery",
+    title: "applynow-backend",
     description:
-      "Query distributed traces with SQL instead of a click-driven UI. Started as a weekend hack, now used by three teams.",
-    href: "https://github.com",
-    tags: ["Rust", "Observability"],
+      "Its a Job portal allows anyone to post job openings for their company. Our admins will verify the authenticity of each job listing and can either approve or reject it. Once a job is approved, it will be displayed on our website, and anyone can apply for the position.",
+    href: "https://github.com/sumitverma77/applynow-backend",
+    tags: ["Java", "★ 2"],
   },
   {
-    title: "envseal",
+    title: "infra-pilot-api",
     description:
-      "Encrypted environment files with per-developer keys. No shared secrets in chat, ever again.",
-    href: "https://github.com",
-    tags: ["TypeScript", "CLI"],
+      "Its just a sample service with CI/CD pipelines and environment-specific deployment configuration. Infrastructure managed in: https://github.com/sumitverma77/infra-pilot-iac",
+    href: "https://github.com/sumitverma77/infra-pilot-api",
+    tags: ["Java", "★ 1"],
   },
   {
-    title: "slowpoke",
+    title: "book-it-now",
     description:
-      "A proxy that injects realistic latency and failures into local development, so you find the timeout bugs first.",
-    href: "https://github.com",
-    tags: ["Go", "Testing"],
+      "Real-time cinema ticket booking backend built with Spring Boot, supporting concurrent seat reservations, event-driven notifications, webhook-based payment handling, and scalable system architecture.",
+    href: "https://github.com/sumitverma77/book-it-now",
+    tags: ["Java", "★ 1"],
   },
 ];
