@@ -11,6 +11,9 @@ importers:
       '@plinth-pages/core':
         specifier: file:vendor/plinth-pages-core-0.1.0.tgz
         version: file:vendor/plinth-pages-core-0.1.0.tgz(react@19.1.0)
+      '@plinth-pages/leetcode-stats':
+        specifier: file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz
+        version: file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz(react@19.1.0)
       next:
         specifier: 15.5.25
         version: 15.5.25(@types/node@20.19.43)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -382,6 +385,12 @@ packages:
     version: 0.1.0
     peerDependencies:
       react: '>=18'
+
+  '@plinth-pages/leetcode-stats@file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz':
+    resolution: {integrity: sha512-dkTVWBq7vAzvmtM75EUrI6QN3xwxygpOLse3RvBx64YZ2zz8vFJG13BEJtEuloeZtD7lViE35YhBiZZNsO71Lg==, tarball: file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz}
+    version: 0.1.0
+    peerDependencies:
+      react: '>=19'
 
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
@@ -2146,6 +2155,10 @@ snapshots:
     dependencies:
       react: 19.1.0
       zod: 3.25.76
+
+  '@plinth-pages/leetcode-stats@file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz(react@19.1.0)':
+    dependencies:
+      react: 19.1.0
 
   '@rtsao/scc@1.1.0': {}
 

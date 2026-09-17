@@ -1,5 +1,15 @@
 {
   "coreVersion": "0.1.0",
   "slotsVersion": 1,
-  "integrations": []
+  "integrations": [
+    {
+      "id": "leetcode-stats",
+      "package": "@plinth-pages/leetcode-stats",
+      "version": "0.1.0",
+      "slot": "afterProjects",
+      "props": {
+        "username": "sumit_verma_77"
+      }
+    }
+  ]
 }

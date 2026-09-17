@@ -1,5 +1,6 @@
 import { Slot } from "@plinth-pages/core";
 // plinth:imports:start
+import { LeetCodeStats } from "@plinth-pages/leetcode-stats";
 // plinth:imports:end
 import { About } from "@/components/sections/About";
 import { Education, Experience, Milestones } from "@/components/sections/Career";
@@ -25,7 +26,11 @@ export default function Page() {
 
       <Slot name="beforeProjects"></Slot>
       <Projects />
-      <Slot name="afterProjects"></Slot>
+      <Slot name="afterProjects">
+        {/* plinth:leetcode-stats:start */}
+        <LeetCodeStats username={"sumit_verma_77"} />
+        {/* plinth:leetcode-stats:end */}
+      </Slot>
 
       <Experience />
       <Education />
