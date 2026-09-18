@@ -11,6 +11,9 @@ importers:
       '@plinth-pages/core':
         specifier: file:vendor/plinth-pages-core-0.1.0.tgz
         version: file:vendor/plinth-pages-core-0.1.0.tgz(react@19.1.0)
+      '@plinth-pages/github-stats':
+        specifier: file:vendor/plinth-pages-github-stats-0.1.0.tgz
+        version: file:vendor/plinth-pages-github-stats-0.1.0.tgz(react@19.1.0)
       '@plinth-pages/leetcode-stats':
         specifier: file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz
         version: file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz(react@19.1.0)
@@ -388,6 +391,12 @@ packages:
     version: 0.1.0
     peerDependencies:
       react: '>=18'
+
+  '@plinth-pages/github-stats@file:vendor/plinth-pages-github-stats-0.1.0.tgz':
+    resolution: {integrity: sha512-v8Ddfn47RQubEf9WUKj1xDiQ6xoixZP1RJxgbDLwkD3CdBiBTWp/aJONk88zyoh00jlxvyNIsH0EEL6JcBYXPA==, tarball: file:vendor/plinth-pages-github-stats-0.1.0.tgz}
+    version: 0.1.0
+    peerDependencies:
+      react: '>=19'
 
   '@plinth-pages/leetcode-stats@file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz':
     resolution: {integrity: sha512-dkTVWBq7vAzvmtM75EUrI6QN3xwxygpOLse3RvBx64YZ2zz8vFJG13BEJtEuloeZtD7lViE35YhBiZZNsO71Lg==, tarball: file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz}
@@ -2164,6 +2173,10 @@ snapshots:
     dependencies:
       react: 19.1.0
       zod: 3.25.76
+
+  '@plinth-pages/github-stats@file:vendor/plinth-pages-github-stats-0.1.0.tgz(react@19.1.0)':
+    dependencies:
+      react: 19.1.0
 
   '@plinth-pages/leetcode-stats@file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz(react@19.1.0)':
     dependencies:

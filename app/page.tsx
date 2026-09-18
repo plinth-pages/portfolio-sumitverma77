@@ -1,5 +1,6 @@
 import { Slot } from "@plinth-pages/core";
 // plinth:imports:start
+import { GitHubStats } from "@plinth-pages/github-stats";
 import { LeetCodeStats } from "@plinth-pages/leetcode-stats";
 import { VisitorCounter } from "@plinth-pages/visitor-counter";
 // plinth:imports:end
@@ -28,6 +29,9 @@ export default function Page() {
       <Slot name="beforeProjects"></Slot>
       <Projects />
       <Slot name="afterProjects">
+        {/* plinth:github-stats:start */}
+        <GitHubStats showTopRepos={true} username={"sumitverma77"} />
+        {/* plinth:github-stats:end */}
         {/* plinth:leetcode-stats:start */}
         <LeetCodeStats username={"sumit_verma_77"} />
         {/* plinth:leetcode-stats:end */}

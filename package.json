@@ -17,7 +17,8 @@
     "next": "15.5.25",
     "@plinth-pages/core": "file:vendor/plinth-pages-core-0.1.0.tgz",
     "@plinth-pages/leetcode-stats": "file:vendor/plinth-pages-leetcode-stats-0.1.0.tgz",
-    "@plinth-pages/visitor-counter": "file:vendor/plinth-pages-visitor-counter-0.1.0.tgz"
+    "@plinth-pages/visitor-counter": "file:vendor/plinth-pages-visitor-counter-0.1.0.tgz",
+    "@plinth-pages/github-stats": "file:vendor/plinth-pages-github-stats-0.1.0.tgz"
   },
   "devDependencies": {
     "typescript": "^5",

@@ -3,6 +3,16 @@
   "slotsVersion": 1,
   "integrations": [
     {
+      "id": "github-stats",
+      "package": "@plinth-pages/github-stats",
+      "version": "0.1.0",
+      "slot": "afterProjects",
+      "props": {
+        "showTopRepos": true,
+        "username": "sumitverma77"
+      }
+    },
+    {
       "id": "leetcode-stats",
       "package": "@plinth-pages/leetcode-stats",
       "version": "0.1.0",
