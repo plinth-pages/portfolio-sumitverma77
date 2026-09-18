@@ -10,6 +10,17 @@
       "props": {
         "username": "sumit_verma_77"
       }
+    },
+    {
+      "id": "visitor-counter",
+      "package": "@plinth-pages/visitor-counter",
+      "version": "0.1.0",
+      "slot": "footer",
+      "props": {
+        "endpoint": "https://api.plinthpages.me",
+        "label": "visitors",
+        "siteId": "cmu5lh4a6000mmk0x59ww0qq8"
+      }
     }
   ]
 }

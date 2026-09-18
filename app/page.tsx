@@ -1,6 +1,7 @@
 import { Slot } from "@plinth-pages/core";
 // plinth:imports:start
 import { LeetCodeStats } from "@plinth-pages/leetcode-stats";
+import { VisitorCounter } from "@plinth-pages/visitor-counter";
 // plinth:imports:end
 import { About } from "@/components/sections/About";
 import { Education, Experience, Milestones } from "@/components/sections/Career";
@@ -43,7 +44,15 @@ export default function Page() {
       <Slot name="contact"></Slot>
 
       <footer className="mx-auto mt-12 flex w-full max-w-3xl flex-col gap-4 border-t border-line px-6 pt-8 text-sm text-muted">
-        <Slot name="footer"></Slot>
+        <Slot name="footer">
+          {/* plinth:visitor-counter:start */}
+          <VisitorCounter
+            endpoint={"https://api.plinthpages.me"}
+            label={"visitors"}
+            siteId={"cmu5lh4a6000mmk0x59ww0qq8"}
+          />
+          {/* plinth:visitor-counter:end */}
+        </Slot>
         <p>
           © {new Date().getFullYear()} {profile.name}
           {profile.location ? ` · ${profile.location}` : ""}
