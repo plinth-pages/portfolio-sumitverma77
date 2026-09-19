@@ -5,7 +5,7 @@ import { LeetCodeStats } from "@plinth-pages/leetcode-stats";
 import { VisitorCounter } from "@plinth-pages/visitor-counter";
 // plinth:imports:end
 import { About } from "@/components/sections/About";
-import { Education, Experience, Milestones } from "@/components/sections/Career";
+import { Education, Experience } from "@/components/sections/Career";
 import { Contact, SocialLinks } from "@/components/sections/Contact";
 import { Hero } from "@/components/sections/Hero";
 import { Projects } from "@/components/sections/Projects";
@@ -39,7 +39,6 @@ export default function Page() {
 
       <Experience />
       <Education />
-      <Milestones />
       <Slot name="sidebar"></Slot>
 
       <SocialLinks />
