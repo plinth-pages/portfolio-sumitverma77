@@ -2,7 +2,7 @@ import { profile } from "@/content/profile";
 
 export function Hero() {
   return (
-    <section className="w-full px-6 pt-[calc(var(--plinth-space)*0.8)] pb-[calc(var(--plinth-space)/2)] bg-gradient-to-b from-accent/10 to-surface">
+    <section className="flex min-h-screen items-center justify-center w-full px-6 pt-[calc(var(--plinth-space)*0.8)] pb-[calc(var(--plinth-space)/2)] bg-gradient-to-b from-accent/10 to-surface">
       <div className="mx-auto flex w-full max-w-3xl flex-col gap-6">
         {profile.avatarUrl ? (
           <img

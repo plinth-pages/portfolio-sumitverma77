@@ -18,11 +18,11 @@ const PALETTES = {
     card: "#fafafa",
   },
   dark: {
-    bg: "#09090b",
-    fg: "#fafafa",
-    muted: "#a1a1aa",
-    border: "#27272a",
-    card: "#131316",
+    bg: "#0f1117",
+    fg: "#e5e5e5",
+    muted: "#a3a3a3",
+    border: "#2d2f33",
+    card: "#111418",
   },
 } as const;
 
