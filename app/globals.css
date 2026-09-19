@@ -6,12 +6,12 @@
   them, so changing the theme never requires touching a component.
 */
 :root {
-  --plinth-bg: #ffffff;
-  --plinth-fg: #18181b;
-  --plinth-muted: #71717a;
-  --plinth-border: #e4e4e7;
-  --plinth-card: #fafafa;
-  --plinth-accent: #2563eb;
+  --plinth-bg: #09090b;
+  --plinth-fg: #fafafa;
+  --plinth-muted: #a1a1aa;
+  --plinth-border: #27272a;
+  --plinth-card: #131316;
+  --plinth-accent: #7c3aed;
   --plinth-accent-fg: #ffffff;
   --plinth-radius: 0.75rem;
   --plinth-space: 5rem;
