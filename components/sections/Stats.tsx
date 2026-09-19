@@ -10,7 +10,7 @@ export function Stats() {
         {profile.stats.map((stat) => (
           <div
             key={stat.label}
-            className="flex flex-col gap-1 rounded-page border border-line bg-card p-4 shadow-lg"
+            className="flex flex-col gap-1 rounded-page border border-line bg-card p-4 shadow-lg hover:shadow-xl hover:scale-105 transition-transform"
           >
             <dt className="text-xs tracking-wider text-muted uppercase">{stat.label}</dt>
             <dd className="text-2xl font-semibold text-ink tabular-nums">{stat.value}</dd>

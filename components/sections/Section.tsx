@@ -11,7 +11,7 @@ export function Section({
     <section id={id} className="w-full px-6 py-[calc(var(--plinth-space)/2)]">
       <div className="mx-auto w-full max-w-3xl">
         {heading ? (
-          <h2 className="mb-6 text-sm font-semibold tracking-[0.14em] text-muted uppercase border-b border-line pb-2">
+          <h2 className="mb-6 text-sm font-semibold tracking-[0.14em] text-muted uppercase pb-2 border-b border-line underline decoration-accent underline-offset-4">
             {heading}
           </h2>
         ) : null}
