@@ -13,7 +13,7 @@
   --plinth-card: #131316;
   --plinth-accent: #7c3aed;
   --plinth-accent-fg: #ffffff;
-  --plinth-radius: 0.75rem;
+  --plinth-radius: 1rem;
   --plinth-space: 5rem;
   --plinth-font: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
 }

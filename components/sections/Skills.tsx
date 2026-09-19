@@ -12,7 +12,7 @@ export function Skills() {
               {group.skills.map((skill) => (
                 <li
                   key={skill}
-                  className="rounded-page border border-line bg-card px-3 py-1.5 text-sm text-ink/80"
+                  className="rounded-page border border-line bg-card px-3 py-1.5 text-sm text-ink/80 shadow-md"
                 >
                   {skill}
                 </li>
